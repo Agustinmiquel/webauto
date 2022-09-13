@@ -22,15 +22,14 @@ function Footer() {
             <p>La empresa se dedica a la compra y venta de autos usados priorizando siempre la facilidad de pago para cliente.</p>
             <p>Trabajando con las mejores marcas.</p>
         </div>
-        </div>
-        <div class="box">
+        {/* <div class="box">
             <h2>SIGUENOS</h2>
             <div class="Redessociales">
             <a href="/" className="icon-instagram"></a>
             <a href="/" className="icon-facebook"></a>
             <a href="/" className="icon-youtube"></a>
         </div>
-    <br/>
+    <br/> */}
 </div>
 
 <div>
