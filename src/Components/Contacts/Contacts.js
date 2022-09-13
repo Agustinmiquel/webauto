@@ -14,6 +14,13 @@ function Contacts() {
         <p>Telefono</p><input type="number" id="number" className="contact_form"></input>
         <input type="submit" className="Formulario" value="ENVIAR"/>
     </form>
+    <details>
+        <summary>INFORMACION ADICIONAL</summary>
+        <div>
+        <p>Dentro de las 24 horas de haber confirmado el formulario en su casilla de correo, un operador  se contactara con usted en los horarios disponibles.</p>
+        <p>De no ser asi, le pedimos que recibe el spam para verificar la solicitud.</p>
+        </div>
+    </details>
     </div>
     </div>
   )

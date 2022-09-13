@@ -1,4 +1,6 @@
 import React from 'react'
+import Footers from  "../../Footers.json";
+import  "./Footer.css"
 
 function Footer() {
   return (
@@ -7,7 +9,11 @@ function Footer() {
     <div className="grupo1">
         <div className="box">
             <figure>
-                <img src="logo.png" alt="FERRO"/>
+            <div className="itemfooter"> 
+         {Footers && Footers.map((fot) => {
+            return <img src={fot.img} className="itemfooterunity" alt="Footer"></img>
+         })}
+          </div>
             </figure>
         </div>
         <div className="box">

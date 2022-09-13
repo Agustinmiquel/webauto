@@ -1,0 +1,9 @@
+.itempay {
+width: 100%;
+}
+
+.itempayunity {
+width: 150px;
+vertical-align: middle; /*para aliniar horzontalmente las imagenes*/
+padding:10px;
+}
