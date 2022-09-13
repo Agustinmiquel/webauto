@@ -1,4 +1,6 @@
 import React from 'react'
+import Footers from  "../../Footers.json";
+import  "./Footer.css"
 
 function Footer() {
   return (
@@ -7,7 +9,11 @@ function Footer() {
     <div className="grupo1">
         <div className="box">
             <figure>
-                <img src="logo.png" alt="FERRO"/>
+            <div className="itemfooter"> 
+         {Footers && Footers.map((fot) => {
+            return <img src={fot.img} className="itemfooterunity" alt="Footer"></img>
+         })}
+          </div>
             </figure>
         </div>
         <div className="box">
@@ -16,15 +22,14 @@ function Footer() {
             <p>La empresa se dedica a la compra y venta de autos usados priorizando siempre la facilidad de pago para cliente.</p>
             <p>Trabajando con las mejores marcas.</p>
         </div>
-        </div>
-        <div class="box">
+        {/* <div class="box">
             <h2>SIGUENOS</h2>
             <div class="Redessociales">
             <a href="/" className="icon-instagram"></a>
             <a href="/" className="icon-facebook"></a>
             <a href="/" className="icon-youtube"></a>
         </div>
-    <br/>
+    <br/> */}
 </div>
 
 <div>
